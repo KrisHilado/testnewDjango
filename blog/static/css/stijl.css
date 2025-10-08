@@ -1,73 +1,49 @@
-/* General page styling */
 body {
     background-color: orange;
+    font-family: Arial, sans-serif;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Header section */
 header {
     background-color: orange;
-    padding: 40px;
-}
-
-header h1 {
-    font-size: 2rem;
+    padding: 20px 60px;
     font-weight: bold;
-    margin-left: 50px;
 }
 
-/* Main content background */
 .content {
     background-color: brown;
-    padding: 60px 0;
+    min-height: 100vh;
+    padding: 40px 0;
 }
 
-/* Each blog post */
 .post {
     background-color: pink;
     border: 2px solid #fff;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px auto;
     width: 600px;
-    margin: 0 auto 40px auto;
+    border-radius: 4px;
 }
 
-/* Date styling */
-.date {
-    font-size: 0.9rem;
-    color: #444;
-}
-
-/* Post titles */
-.post h2 {
+h2 a {
     color: orange;
-    font-size: 1.5rem;
-    margin-top: 5px;
-}
-
-/* Links */
-.post h2 a {
     text-decoration: none;
-    color: orange;
 }
 
-.post h2 a:hover {
+h2 a:hover {
     text-decoration: underline;
 }
 
-/* “No posts available” message */
-.no-posts {
-    text-align: center;
-    background-color: #ffdddd;
-    color: #660000;
-    border: 2px dashed #cc0000;
-    width: 500px;
-    margin: 40px auto;
-    padding: 20px;
-    font-weight: bold;
-    border-radius: 10px;
+a {
+    color: black;
+    text-decoration: none;
 }
+
+a:hover {
+    color: darkred;
+}
+
 
 
