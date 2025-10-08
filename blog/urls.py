@@ -1,8 +1,7 @@
-from django.urls import path
-from . import views
+from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
-   path('', views.post_list, name='post_list'),
-   path('post/<int:pk>/', views.post_detail, name='post_inhoud'),
-   path('post/nieuw/', views.post_nieuw, name='post_nieuw'),
+    path('admin/', admin.site.urls),
+    path('polls/', include('django_polls_kamner.urls')),
 ]
